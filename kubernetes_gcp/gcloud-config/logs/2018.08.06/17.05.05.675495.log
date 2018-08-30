@@ -1,7 +1,0 @@
-2018-08-06 17:05:05,712 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
-2018-08-06 17:05:05,762 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
-2018-08-06 17:05:05,765 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "iac-practice-in-gcp"]
-2018-08-06 17:05:05,767 INFO     ___FILE_ONLY___ Updated property [core/project].
-
-2018-08-06 17:05:05,768 INFO     root            Display format: "default"
-2018-08-06 17:05:05,780 DEBUG    root            Metrics reporting process started...
