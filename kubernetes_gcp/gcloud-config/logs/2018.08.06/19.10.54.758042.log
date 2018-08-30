@@ -1,0 +1,30 @@
+2018-08-06 19:10:54,760 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2018-08-06 19:10:54,764 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2018-08-06 19:10:54,767 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2018-08-06 19:10:54,774 INFO     root            Display format: "default json"
+2018-08-06 19:10:54,775 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "compute": {
+        "region": "us-west1",
+        "zone": "us-west1-a"
+      },
+      "core": {
+        "account": "mgsan3@gmail.com",
+        "disable_usage_reporting": "False",
+        "project": "iac-practice-in-gcp"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.GlsPBuB3RmdTfCMQpqmTQv8v4kVoU2nqVeb3OwyX2yMuBG4tE6pkQ4gGEvWh43ax_H6z9sNa5x748Ozj-DS_Owuwa5QxEaI_7XLPXnRPliQxkGt6EXW3Fvrgxb4b",
+    "token_expiry": "2018-08-06T14:40:44Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/samy/terraform/kubernetes_gcp/gcloud-config/config_sentinel"
+  }
+}
+2018-08-06 19:10:54,775 INFO     ___FILE_ONLY___ 
+
+2018-08-06 19:10:54,785 DEBUG    root            Metrics reporting process started...

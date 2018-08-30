@@ -1,0 +1,82 @@
+2018-08-06 18:38:57,399 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'firewall_rules']
+2018-08-06 18:38:57,415 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'firewall-rules', u'delete']
+2018-08-06 18:38:57,418 DEBUG    root            Running [gcloud.compute.firewall-rules.delete] with arguments: [--project: "sodium-lore-185011", NAME:1: "[u'allow-external-director']"]
+2018-08-06 18:39:00,251 DEBUG    root            Operations to inspect: [<Operation
+ id: 123284465790613124
+ insertTime: u'2018-08-06T06:08:59.939-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/operations/operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ status: StatusValueValuesEnum(PENDING, 1)
+ targetId: 2388592084768999520
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/firewalls/allow-external-director'
+ user: u'mgsan3@gmail.com'
+ warnings: []>]
+2018-08-06 18:39:00,732 DEBUG    root            Sleeping for 1s.
+2018-08-06 18:39:01,733 DEBUG    root            Operations to inspect: [<Operation
+ id: 123284465790613124
+ insertTime: u'2018-08-06T06:08:59.939-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/operations/operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ startTime: u'2018-08-06T06:09:00.358-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 2388592084768999520
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/firewalls/allow-external-director'
+ user: u'mgsan3@gmail.com'
+ warnings: []>]
+2018-08-06 18:39:02,188 DEBUG    root            Sleeping for 2s.
+2018-08-06 18:39:04,191 DEBUG    root            Operations to inspect: [<Operation
+ id: 123284465790613124
+ insertTime: u'2018-08-06T06:08:59.939-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/operations/operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ startTime: u'2018-08-06T06:09:00.358-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 2388592084768999520
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/firewalls/allow-external-director'
+ user: u'mgsan3@gmail.com'
+ warnings: []>]
+2018-08-06 18:39:04,650 DEBUG    root            Sleeping for 3s.
+2018-08-06 18:39:07,651 DEBUG    root            Operations to inspect: [<Operation
+ id: 123284465790613124
+ insertTime: u'2018-08-06T06:08:59.939-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/operations/operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ startTime: u'2018-08-06T06:09:00.358-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 2388592084768999520
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/firewalls/allow-external-director'
+ user: u'mgsan3@gmail.com'
+ warnings: []>]
+2018-08-06 18:39:08,101 DEBUG    root            Sleeping for 4s.
+2018-08-06 18:39:12,102 DEBUG    root            Operations to inspect: [<Operation
+ endTime: u'2018-08-06T06:09:05.324-07:00'
+ id: 123284465790613124
+ insertTime: u'2018-08-06T06:08:59.939-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ operationType: u'delete'
+ progress: 100
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/operations/operation-1533560939578-572c3fb0b8290-6be35b18-647e24e0'
+ startTime: u'2018-08-06T06:09:00.358-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 2388592084768999520
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/firewalls/allow-external-director'
+ user: u'mgsan3@gmail.com'
+ warnings: []>]
+2018-08-06 18:39:12,103 INFO     ___FILE_ONLY___ Deleted [https://www.googleapis.com/compute/v1/projects/sodium-lore-185011/global/firewalls/allow-external-director].
+
+2018-08-06 18:39:12,104 INFO     root            Display format: "none"
+2018-08-06 18:39:12,309 INFO     root            cache collection=compute.firewalls api_version=v1 params=[u'project', u'firewall']
+2018-08-06 18:39:12,416 DEBUG    root            Metrics reporting process started...

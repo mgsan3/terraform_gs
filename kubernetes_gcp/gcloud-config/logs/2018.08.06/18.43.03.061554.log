@@ -1,0 +1,4 @@
+2018-08-06 18:43:03,063 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'firewall_rules']
+2018-08-06 18:43:03,080 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'firewall-rules', u'update']
+2018-08-06 18:43:03,083 ERROR    root            (gcloud.compute.firewall-rules.update) argument NAME: Must be specified.
+2018-08-06 18:43:03,095 DEBUG    root            Metrics reporting process started...

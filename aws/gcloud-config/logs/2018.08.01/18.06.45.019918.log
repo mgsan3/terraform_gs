@@ -1,0 +1,55 @@
+2018-08-01 18:06:45,077 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances']
+2018-08-01 18:06:45,195 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances', u'list']
+2018-08-01 18:06:45,201 DEBUG    root            Running [gcloud.compute.instances.list] with arguments: []
+2018-08-01 18:06:46,290 INFO     root            Display format: "    table(
+      name,
+      zone.basename(),
+      machineType.machine_type().basename(),
+      scheduling.preemptible.yesno(yes=true, no=''),
+      networkInterfaces[].networkIP.notnull().list():label=INTERNAL_IP,
+      networkInterfaces[].accessConfigs[0].natIP.notnull().list()      :label=EXTERNAL_IP,
+      status
+    )"
+2018-08-01 18:06:47,417 INFO     root            cache collection=compute.instances api_version=v1 params=[u'project', u'zone', u'instance']
+2018-08-01 18:06:47,452 INFO     ___FILE_ONLY___ NAME
+2018-08-01 18:06:47,453 INFO     ___FILE_ONLY___                                      
+2018-08-01 18:06:47,453 INFO     ___FILE_ONLY___ ZONE
+2018-08-01 18:06:47,453 INFO     ___FILE_ONLY___         
+2018-08-01 18:06:47,454 INFO     ___FILE_ONLY___ MACHINE_TYPE
+2018-08-01 18:06:47,454 INFO     ___FILE_ONLY___    
+2018-08-01 18:06:47,454 INFO     ___FILE_ONLY___ PREEMPTIBLE
+2018-08-01 18:06:47,454 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,454 INFO     ___FILE_ONLY___ INTERNAL_IP
+2018-08-01 18:06:47,455 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,455 INFO     ___FILE_ONLY___ EXTERNAL_IP
+2018-08-01 18:06:47,455 INFO     ___FILE_ONLY___      
+2018-08-01 18:06:47,455 INFO     ___FILE_ONLY___ STATUS
+2018-08-01 18:06:47,456 INFO     ___FILE_ONLY___ 
+
+2018-08-01 18:06:47,456 INFO     ___FILE_ONLY___ vm-0492e46e-35d0-4bd8-67bb-3ad4c6b5c5dc
+2018-08-01 18:06:47,457 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,457 INFO     ___FILE_ONLY___ us-west1-a
+2018-08-01 18:06:47,457 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,457 INFO     ___FILE_ONLY___ n1-standard-1
+2018-08-01 18:06:47,458 INFO     ___FILE_ONLY___                
+2018-08-01 18:06:47,458 INFO     ___FILE_ONLY___ 10.0.0.6
+2018-08-01 18:06:47,458 INFO     ___FILE_ONLY___      
+2018-08-01 18:06:47,458 INFO     ___FILE_ONLY___ 104.198.12.113
+2018-08-01 18:06:47,458 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,459 INFO     ___FILE_ONLY___ RUNNING
+2018-08-01 18:06:47,459 INFO     ___FILE_ONLY___ 
+
+2018-08-01 18:06:47,459 INFO     ___FILE_ONLY___ vm-c5e02d03-4f18-45de-73e9-2c41868729cd
+2018-08-01 18:06:47,459 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,460 INFO     ___FILE_ONLY___ us-west1-a
+2018-08-01 18:06:47,460 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,460 INFO     ___FILE_ONLY___ n1-standard-1
+2018-08-01 18:06:47,461 INFO     ___FILE_ONLY___                
+2018-08-01 18:06:47,461 INFO     ___FILE_ONLY___ 10.0.0.5
+2018-08-01 18:06:47,461 INFO     ___FILE_ONLY___      
+2018-08-01 18:06:47,462 INFO     ___FILE_ONLY___ 35.233.209.184
+2018-08-01 18:06:47,463 INFO     ___FILE_ONLY___   
+2018-08-01 18:06:47,463 INFO     ___FILE_ONLY___ RUNNING
+2018-08-01 18:06:47,463 INFO     ___FILE_ONLY___ 
+
+2018-08-01 18:06:47,479 DEBUG    root            Metrics reporting process started...

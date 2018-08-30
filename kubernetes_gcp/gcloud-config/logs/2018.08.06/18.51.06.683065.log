@@ -1,0 +1,11 @@
+2018-08-06 18:51:06,692 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2018-08-06 18:51:06,698 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2018-08-06 18:51:06,701 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters', u'get_credentials']
+2018-08-06 18:51:06,771 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "iac-practice-in-gcp", --zone: "us-west1-b", NAME: "iac-tutorial-cluster"]
+2018-08-06 18:51:06,772 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2018-08-06 18:51:07,681 DEBUG    root            Saved kubeconfig to /home/samy/.kube/config
+2018-08-06 18:51:07,681 INFO     ___FILE_ONLY___ kubeconfig entry generated for iac-tutorial-cluster.
+
+2018-08-06 18:51:07,682 INFO     root            Display format: "default"
+2018-08-06 18:51:07,693 DEBUG    root            Metrics reporting process started...

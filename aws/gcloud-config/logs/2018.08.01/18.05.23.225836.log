@@ -1,0 +1,58 @@
+2018-08-01 18:05:23,242 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances']
+2018-08-01 18:05:23,303 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances', u'list']
+2018-08-01 18:05:23,307 DEBUG    root            Running [gcloud.compute.instances.list] with arguments: []
+2018-08-01 18:05:23,335 DEBUG    root            (gcloud.compute.instances.list) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials, or if you have already logged in with a
+different account:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+Traceback (most recent call last):
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 848, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 770, in Run
+    resources = command_instance.Run(args)
+  File "/home/samy/google-cloud-sdk/lib/surface/compute/instances/list.py", line 41, in Run
+    client = holder.client
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/base_classes.py", line 67, in client
+    self._client = client_adapter.ClientAdapter(self._api_version)
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 58, in __init__
+    self._API_NAME, self._api_version, no_http=no_http)
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 301, in GetClientInstance
+    api_name, api_version, no_http, _CheckResponse, enable_resource_quota)
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis_internal.py", line 163, in _GetClientInstance
+    response_encoding=encoding, ca_certs=ca_certs)
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/core/credentials/http.py", line 71, in Http
+    creds = store.LoadIfEnabled()
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 282, in LoadIfEnabled
+    return Load()
+  File "/home/samy/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 347, in Load
+    raise NoActiveAccountException()
+NoActiveAccountException: You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials, or if you have already logged in with a
+different account:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+2018-08-01 18:05:23,376 ERROR    root            (gcloud.compute.instances.list) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials, or if you have already logged in with a
+different account:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+2018-08-01 18:05:23,488 DEBUG    root            Metrics reporting process started...

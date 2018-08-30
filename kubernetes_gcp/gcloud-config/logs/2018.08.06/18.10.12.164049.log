@@ -1,0 +1,15 @@
+2018-08-06 18:10:12,190 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'addresses']
+2018-08-06 18:10:12,269 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'addresses', u'list']
+2018-08-06 18:10:12,273 DEBUG    root            Running [gcloud.compute.addresses.list] with arguments: []
+2018-08-06 18:10:12,317 INFO     oauth2client.client Refreshing access_token
+2018-08-06 18:10:12,874 INFO     root            Display format: "        table(
+          name,
+          region.basename(),
+          address,
+          status
+        )"
+2018-08-06 18:10:13,686 INFO     root            cache collection=compute.addresses api_version=v1 params=[u'project', u'region', u'address']
+2018-08-06 18:10:13,686 INFO     root            cache collection=compute.globalAddresses api_version=v1 params=[u'project', u'address']
+2018-08-06 18:10:13,768 INFO     ___FILE_ONLY___ Listed 0 items.
+
+2018-08-06 18:10:13,782 DEBUG    root            Metrics reporting process started...
